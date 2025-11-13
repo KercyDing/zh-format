@@ -8,10 +8,10 @@ zh-format is a Chinese formatting package for Typst, providing better solutions 
 
 ```typst
 // Import from Typst Universe (recommended)
-// #import "@preview/zh-kit:0.1.0": *
+#import "@preview/zh-format:0.1.0": *
 
 // For local development or direct repository usage
-#import "../lib.typ": * // assuming lib.typ is in parent directory
+// #import "../lib.typ": * // assuming lib.typ is in parent directory
 
 #show: zh-format
 

@@ -8,10 +8,10 @@ zh-format 是一个用于 Typst 的中文格式包,提供更适合中文排版�
 
 ```typst
 // 从 Typst Universe 导入 (推荐)
-// #import "@preview/zh-kit:0.1.0": *
+#import "@preview/zh-format:0.1.0": *
 
 // 如果是本地开发或直接使用仓库代码
-#import "../lib.typ": * // 假设 lib.typ 在上一级目录
+// #import "../lib.typ": * // 假设 lib.typ 在上一级目录
 
 #show: zh-format
 
