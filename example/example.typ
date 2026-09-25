@@ -1,4 +1,3 @@
-// #import "@preview/zh-kit:0.1.0": *
 #import "../lib.typ": *
 
 #show: zh-format
@@ -56,7 +55,7 @@ This is #underline[English underline] effect.
 === 纯中文斜体
 这是_中文斜体文本_的效果，使用倾斜变换实现。
 
-_完整段落的中文斜体测试：中文斜体采用 skew 变换，倾斜角度为 -18 度，这样可以在保持字形清晰的同时实现倾斜效果。_
+_完整段落的中文斜体测试：中文斜体采用 skew 变换，倾斜角度为 -15 度，这样可以在保持字形清晰的同时实现倾斜效果。_
 
 === 纯英文斜体
 This is _italic English text_ using native font style.
